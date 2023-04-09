@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<android.support.constraint.ConstraintLayout tools:context=".GamehActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp">
+        <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="visible" android:src="@drawable/howto" android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="313dp"
+            android:layout_height="339dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="200dp"
+            android:text="1. 낱말게임에서는 해파리를 클릭해\n   해당되는 낱말을 말하면 해파리가 \n   사라지고, 수학게임에서는 정답을 \n   입력하면 해파리가 사라집니다.\n2. 사라지는 벽돌의 위치에 따라\n   보여지는 배경의 그림이 무엇\n   인지 생각해봅니다.\n3. 오답일 경우 하트가 사라집니다. \n    (5번 이상 틀리면 게임 오버)\n\n4. 제한시간 60초 이내에 정답을\n     입력하면 성공~!\n5. 낱말 학습을 통해 언제든지\n     말을 듣고 따라할 수 있습니다."
+            android:textSize="8pt" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

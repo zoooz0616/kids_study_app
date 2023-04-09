@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <font app:font="@font/myfont" android:font="@font/myfont" app:fontStyle="normal" android:fontStyle="normal"/>
+</font-family>
